@@ -10,7 +10,7 @@ import java.io.File;
 public class Main {
     
     public static void main(String[] args) {
-        File file = new File("../ImageViewer-master/images/");
+        File file = new File("./images/");
         
         FileImageLoader loader = new FileImageLoader(file);
         Image image = loader.load();
